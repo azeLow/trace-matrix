@@ -1,0 +1,84 @@
+
+.all_table {
+	overflow: auto;
+	position: relative;
+	margin-left: 100px;
+}
+.all_table table {
+	display: inline-block;
+	vertical-align: top;
+	border: 2px solid silver;
+}
+a{
+	text-decoration: none;
+	color: #000;
+
+}
+.table{
+	border: 2px solid silver;
+	border-collapse: collapse;
+	text-align: center;
+	color: #000;
+}
+.table caption{
+	font-size: 25px;
+	font-weight: bold;
+	text-align: left;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	position: sticky;
+	background-color: rgb(255, 255, 255);
+	z-index: 2;
+	width: auto;
+}
+thead {
+	top: 20px;
+	position: sticky;
+}
+th {
+	border: 2px solid silver;
+	padding: 15px 20px;
+	writing-mode: vertical-rl;
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+	top: 20px;
+	background-color: rgb(255, 255, 255);
+	max-height: 100px;
+	max-width: 70px;
+	color: #000;
+}
+.inactive_row {
+    background-color: rgb(235, 235, 228);;
+}
+td {
+	border: 2px solid silver;
+	padding: 15px 20px;
+	text-align: left;
+	max-width: 400px;
+	max-height: max-content;
+	color: #000;
+}
+.first{
+	font-size: 1em;
+	font-weight: initial;
+	left: 0;
+	position: sticky;
+	background-color: rgb(255, 255, 255);
+}
+.firstbody{
+	top: 20px;
+	left: -1;
+	position: sticky;
+	z-index:1;
+	background-color: rgb(255, 255, 255);
+
+}
+.convert{
+    writing-mode: vertical-rl;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+}
+.incomplete{
+    background-color:#FA8072;
+}

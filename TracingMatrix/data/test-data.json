@@ -1,0 +1,18 @@
+{
+    "test-data":{
+        "input":{
+            "login":[
+                {"admin":"admin-login"},
+                {"user":"user-login"}
+            ],
+            "password":[
+                {"admin":"admin-password"},
+                {"user":"user-password"}
+            ],
+            "name":[
+                {"admin":"admin-name"},
+                {"user":"user-name"}
+            ]
+        }
+    }
+}

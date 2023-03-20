@@ -1,0 +1,17 @@
+.table_tc{
+    border-collapse: collapse;
+    border: 2px solid silver;
+}
+.td_content{
+    max-width: max-content;
+background-color: #e3e0de;
+}
+.td_status{
+    background-color:#e3e0de;
+}
+.td_incorrect_content {
+    background-color:#FA8072;
+}
+td{
+    border: 2px solid silver;
+}

@@ -1,0 +1,14 @@
+#<!--ID-->{
+    position:fixed;
+	left:90vh;
+	right: 10px;
+    top: 5px;
+    display: none;
+    max-height: 95vh;
+    max-wight: 90vh;
+    overflow-y: auto;
+
+}
+#<!--ID2-->:target {
+    display: block;
+}
